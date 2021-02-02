@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); 
 
 /* ----------Heading */
 
@@ -34,25 +34,8 @@ body {
 }
 
 .wrapper {
-    width: 1170px;
+    width: 1200px;
     margin: 10 auto;
-}
-
-nav {
-    float: right;
-    line-height: 100px;
-}
-
-nav a {
-    text-decoration: none;
-    font-family: Karla;
-    letter-spacing: 6px;
-    font-size: 20px;
-    margin: 0 10px;
-    color: #fff;
-    position: relative;
-    left: 200px;
-    bottom: 105px;
 }
 
 .banner {
@@ -91,7 +74,7 @@ nav a {
     left: 300px;
 }
 
-ul {
+.albumsawards {
     list-style-type: square;
     background-color: #ddd;
     padding: 10px 400px;
@@ -121,4 +104,32 @@ footer {
     padding: 3px;
     color: #fff;
     background-color: #262626;
+}
+
+/* ----------Navbar Hover Effect */
+
+nav {
+    float: right;
+    line-height: 100px;
+    display: inline-flex;
+    perspective-origin: relative;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Karla;
+    letter-spacing: 6px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+    position: relative;
+    left: 200px;
+    bottom: 105px;
+}
+
+/* ----------Merchandise */
+
+.merch {
+   width: 1200px;
+   margin: 10 auto;
 }
