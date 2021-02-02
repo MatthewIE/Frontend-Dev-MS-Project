@@ -133,3 +133,39 @@ nav a {
    width: 1200px;
    margin: 10 auto;
 }
+
+/* ----------Form for newsletter in Booking.html */
+
+form {
+  border: 4px solid #ddd;
+}
+
+  .container {
+  padding: 20px;
+  background-color: #ddd;
+  position: relative;
+  left: 300px;
+  }
+
+  input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #2f2f2f;
+  color: #fff;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
