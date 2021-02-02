@@ -2,6 +2,10 @@
 
 /* ----------Heading */
 
+* {
+  box-sizing: border-box;
+}
+
 header {
     height: 100px;
     background: #262626;
@@ -11,6 +15,8 @@ header {
 }
 
 .logo {
+    margin-top: 0;
+    padding-top: 0;
     width: 30%;
     float: left;
     line-height: 100px;
@@ -34,7 +40,7 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    width: 100%;
     margin: 10 auto;
 }
 
@@ -49,11 +55,16 @@ body {
 }
 
 .content {
+  display: block;
+overflow: auto;
     width: 100%;
     position: relative;
-    top: 450px;
+    top: 300px;
     background: #ddd;
-    height: 1500px;
+}
+
+.spare{
+  height:100px;
 }
 
 .content h2 {
@@ -63,7 +74,7 @@ body {
     font-size: 40px;
     margin: 0;
     position: relative;
-    left: 300px;
+    padding: 0 10% 0 10%;
 }
 
 .content p {
@@ -71,22 +82,27 @@ body {
     font-family: Karla;
     line-height: 30px;
     position: relative;
-    left: 300px;
+    padding: 0 10% 0 10%;
 }
+
 
 .albumsawards {
     list-style-type: square;
     background-color: #ddd;
     padding: 10px 400px;
     position: relative;
-    left: 300px;
+    padding: 0 10% 0 10%;
+}
     
+.nav-link{
+  color: #ccc;
+  font-size: 20px;
+  font-family: Karla;
+  padding: 0 0 1px 0;
 }
 
 li {
-    white-space: nowrap;
-    border-bottom:1px solid #2f2f2f;
-
+  list-style: none;
 }
 
 ul .awards {
@@ -106,7 +122,7 @@ footer {
     background-color: #262626;
 }
 
-/* ----------Navbar Hover Effect (to-do) */
+/* ----------Navbar Hover Effect (maybe?) */
 
 nav {
     float: right;
@@ -130,8 +146,7 @@ nav a {
 /* ----------Merchandise */
 
 .merch {
-   width: 1200px;
-   margin: 10 auto;
+   width: 100%;
 }
 
 /* ----------Form for newsletter in Booking.html */
