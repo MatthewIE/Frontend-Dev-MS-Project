@@ -90,3 +90,16 @@ nav a {
     position: relative;
     left: 300px;
 }
+
+/* ----------Footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    color: #fff;
+    background-color: #262626;
+}
