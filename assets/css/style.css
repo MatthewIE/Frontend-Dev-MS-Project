@@ -106,7 +106,7 @@ footer {
     background-color: #262626;
 }
 
-/* ----------Navbar Hover Effect */
+/* ----------Navbar Hover Effect (to-do) */
 
 nav {
     float: right;
@@ -196,4 +196,7 @@ div.desc {
 img.expand {
     width: 10em;
 }
+
+/* ----------Responsive Web Design */
+
 
