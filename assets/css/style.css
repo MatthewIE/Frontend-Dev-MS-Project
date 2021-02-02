@@ -91,6 +91,25 @@ nav a {
     left: 300px;
 }
 
+ul {
+    list-style-type: square;
+    background-color: #ddd;
+    padding: 10px 400px;
+    position: relative;
+    left: 300px;
+    
+}
+
+li {
+    white-space: nowrap;
+    border-bottom:1px solid #2f2f2f;
+
+}
+
+ul .awards {
+    white-space: nowrap;
+}
+
 /* ----------Footer */
 
 footer {
